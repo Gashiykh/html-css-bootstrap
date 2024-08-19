@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: arial;
+}
+
+.header {
+  height: 62px;
+  background: #02918c;
+  padding-top: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1008px;
+}
+
+.info {
+  text-transform: uppercase;
+  text-align: center;
+  color: #02918c;
+  font-style: bold;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  color: #7e8287;
+}
+
+.text-line {
+  line-height: 1.5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.main-pic {
+  margin-bottom: 60px;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.table-row {
+  border-collapse: collapse;
+}
+
+.lamp {
+  width: 35px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 120px;
+}
+
+.pencil {
+  width: 35px;
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 120px;
+}
+
+.set {
+  width: 35px;
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 120px;
+}
+
+.laptop {
+  width: 35px;
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 120px;
+}
+
+.title {
+  font-size: 18px;
+  color: #7e8287;
+  font-style: bold;
+}
+
+.text-item {
+  font-size: 14px;
+  color: #7e8287;
+  height: 21px;
+  font-style: normal;
+}
+
+.table-end {
+  margin-bottom: 50px;
+}
+
+.conclusion {
+  height: 79px;
+  background: #000;
+  color: #7e8287;
+  font-size: 12px;
+  font-style: normal;
+  text-align: center;
+}
+
+.folio {
+  padding-top: 30px;
+}

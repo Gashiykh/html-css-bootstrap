@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test-1</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header-inner">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link mx-4 header-menu" aria-current="page" href="#"
+                >Employers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 header-menu" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 header-menu" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 header-menu" aria-disabled="true">Team</a>
+            </li>
+          </ul>
+          <a href="#" id="openModalBtn" class="btn btn-primary btn-login "> Login </a>
+          <div class="my-modal" id="modal">
+            <form class="d-flex flex-column text-center">
+          <p class="title-3">Sign in to your account</p>
+          <label class="login-3 my-2"
+            ><div class="icon-border"><i class="bx bx-user-circle"></i></div>
+            <input type="text" placeholder=" Username" />
+          </label>
+
+          <label class="my-2"
+            ><div class="icon-border-2"></div>
+            <input type="password" placeholder=" •••••••••" />
+          </label>
+
+          <button class="btn btn-primary btn-3">Sign in</button>
+
+          <p class="member">
+            Not a member?
+            <a class="sign" href="#"
+              >Sign Up Now 
+            </a>
+          </p>
+        </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators carousel-indicators-custome">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slider-pic.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="slider-title-green">
+              Where will
+              <span class="slider-title-black">great work</span>
+              <br />
+              take you?
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slider-pic.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="slider-title-green">
+              Where will
+              <span class="slider-title-black">great work</span>
+              <br />
+              take you?
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slider-pic.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="slider-title-green">
+              Where will
+              <span class="slider-title-black">great work</span>
+              <br />
+              take you?
+            </h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="background-color-gray big-block">
+      <div class="container text-center">
+        <h5 class="slider-title-black intro-title pt-5">
+          We give
+          <span class="slider-title-green intro-title"> best Services </span>
+        </h5>
+        <p class="intro-text mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          dolores cum quam quia atque sapiente? Ex asperiores ipsum ad, adipisci
+          error, numquam reiciendis sit doloremque non totam tempora
+          voluptatibus eligendi!
+        </p>
+
+        <div class="row">
+          <div class="cards col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <img src="./img/ic-1.png" alt="ic-1" />
+            <h5 class="ic-title my-3">New Way of Vision</h5>
+            <p class="intro-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              voluptatem ullam doloremque fugit
+            </p>
+          </div>
+
+          <div class="cards col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <img src="./img/ic-2.png" alt="ic-2" />
+            <h5 class="ic-title my-3">Fresh Ideas</h5>
+            <p class="intro-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              voluptatem ullam doloremque fugit
+            </p>
+          </div>
+
+          <div class="cards col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <img src="./img/ic-3.png" alt="ic-3" />
+            <h5 class="ic-title my-3">Strong Foundations</h5>
+            <p class="intro-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              voluptatem ullam doloremque fugit
+            </p>
+          </div>
+
+          <div class="cards col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <img class="ic-4" src="./img/ic-4.png" alt="ic-4" />
+            <h5 class="ic-title my-3">Great Support</h5>
+            <p class="intro-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              voluptatem ullam doloremque fugit
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <img
+          class="col-6 col-sm-6 col-6 col-lg-6 col-xl-6 py-5"
+          src="./img/pic-big-1.png"
+          alt="pic-1"
+        />
+        <div class="content col-12 col-sm-12 col-6 col-lg-6 col-xl-6">
+          <h5 class="pic-title-gray title-edit">
+            Find <span class="pic-title-green">the perfect</span> match <br />
+            fast
+          </h5>
+          <p class="intro-text pt-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo modi,
+            nemo ratione voluptatum, quidem laboriosam aliquam reprehenderit
+            accusantium porro rem eveniet quisquam tenetur laudantium id
+            adipisci dolorem velit ab? Eligendi!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="background-color-gray">
+      <div class="container">
+        <div class="row">
+          <div class="content col-12 col-sm-12 col-6 col-lg-6 col-xl-6">
+            <h5 class="pic-title-gray title-edit">
+              Great <span class="pic-title-green">work starts</span> with <br />
+              great talent
+            </h5>
+            <ul class="pt-3">
+              <li class="intro-text">
+                Get amazing results working with the best programmers
+              </li>
+              <li class="intro-text">
+                Designers, writers and other top online pros
+              </li>
+              <li class="intro-text">
+                Hire freelancers with confidence, always knowing
+              </li>
+              <li class="intro-text">
+                Their work experience and feedback from other clients
+              </li>
+              <li class="intro-text">
+                Designers, writers and other top online pros
+              </li>
+            </ul>
+          </div>
+          <img
+            class="col-6 col-sm-6 col-6 col-lg-6 col-xl-6 py-5"
+            src="./img/pic-big-2.png"
+            alt="pic-2"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h5 class="pic-title-gray my-5 text-center">
+        Recent Work Done on <span class="pic-title-green">JOB BOARD</span>
+      </h5>
+
+      <div class="row">
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+          <img src="./img/pic-1.jpg" alt="pic-1" />
+          <div class="card-block">
+            <a href="#"><button class="btn-blue">Graphics</button></a>
+            <p class="text-center text-card">Round Icons Design</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+          <img src="./img/pic-2.jpg" alt="pic-2" />
+          <div class="card-block">
+            <a href="#"><button class="btn-green">Graphics</button></a>
+            <p class="text-center text-card">Stationary Design</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+          <img src="./img/pic-3.jpg" alt="pic-3" />
+          <div class="card-block">
+            <a href="#"><button class="btn-purple">Graphics</button></a>
+            <p class="text-center text-card">Logo Design</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+          <img src="./img/pic-4.jpg" alt="pic-4" />
+          <div class="card-block">
+            <a href="#"><button class="btn-orange">Graphics</button></a>
+            <p class="text-center text-card">Branding</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-2">
+          <img src="./img/pic-5.jpg" alt="pic-5" />
+          <div class="card-block">
+            <a href="#"><button class="btn-green">Graphics</button></a>
+            <p class="text-center text-card">Visiting Card Design</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-2">
+          <img src="./img/pic-6.jpg" alt="pic-6" />
+          <div class="card-block">
+            <a href="#"><button class="btn-orange">Graphics</button></a>
+            <p class="text-center text-card">Brochure Design</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-2">
+          <img src="./img/pic-7.jpg" alt="pic-7" />
+          <div class="card-block">
+            <a href="#"><button class="btn-blue">Graphics</button></a>
+            <p class="text-center text-card">Branding</p>
+          </div>
+        </div>
+
+        <div class="main-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-2">
+          <img src="./img/pic-8.jpg" alt="pic-8" />
+          <div class="card-block">
+            <a href="#"><button class="btn-purple">Graphics</button></a>
+            <p class="text-center text-card">Stationary Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-footer">© 2015 JOB BOARD Landing Page By Mike Taylor</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $("#openModalBtn").click(
+        () => {
+          $("#modal").toggle()
+        }
+      )
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: arial;
+}
+
+.container {
+  width: 1008px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #02918c;
+  height: 62px;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+.logo {
+  padding-top: 18px;
+}
+
+.about-me {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+  color: #02918c;
+  font-size: 46px;
+  font-style: bold;
+}
+
+.text {
+  margin-top: 20px;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #7e8287;
+  font-size: 16px;
+}
+
+.all {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.lamp {
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-left: 55px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7e8287;
+}
+
+.edit {
+  margin-left: 46px;
+}
+
+.edit2 {
+  margin-left: 25px;
+}
+
+.text2 {
+  color: #7e8287;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.edit0 {
+  margin-left: 18px;
+}
+
+.conclusion {
+  margin-top: 40px;
+  background: #000;
+  height: 79px;
+}
+
+.footer {
+  color: #7e8287;
+  font-size: 12px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 35px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,215 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.header-inner {
+  background-color: #5bbc2e !important;
+  text-transform: uppercase;
+}
+
+.header-menu {
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-login {
+  margin-left: 300px;
+  background-color: green !important;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  padding: 5px 30px;
+}
+
+.my-modal {
+  position: absolute;
+  top: 120%;
+  left: 33%;
+  width: 400px;
+  margin-right: 200px;
+  background-color: #5bbc2e;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 100;
+  display: none;
+}
+
+.title-3 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.member {
+  margin-right: 35px;
+  margin-top: 10px;
+  color: black;
+}
+
+.btn-3 {
+  margin-left: 75px;
+  width: 55%;
+  background-color: darkturquoise !important;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #5bbc2e;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 100%;
+}
+
+.slider-title-green {
+  font-size: 48px;
+  color: #5bbc2e;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.slider-title-black {
+  color: black;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  font-size: 12px;
+  color: #515151;
+  font-weight: 400;
+}
+
+.ic-title {
+  text-transform: uppercase;
+  color: #5bbc2e;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ic-4 {
+  width: 49px;
+  height: 35px;
+}
+
+.background-color-gray {
+  background-color: #f9f9f9;
+}
+
+.big-block {
+  padding-bottom: 50px;
+}
+
+.pic-title-gray {
+  font-size: 30px;
+  color: #8d8d8d;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pic-title-green {
+  color: #5bbc2e;
+}
+
+.title-edit {
+  padding-top: 100px;
+}
+
+ul {
+  list-style-image: url(../img/arrow.png);
+}
+
+.card-block {
+  border: 1px solid;
+  width: 270px;
+  height: 80px;
+}
+
+.btn-blue {
+  background-color: steelblue;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  padding: 7px 20px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.btn-green {
+  background-color: #5bbc2e;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  padding: 7px 20px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.btn-orange {
+  background-color: orange;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  padding: 7px 20px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.btn-purple {
+  background-color: purple;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  padding: 7px 20px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.text-card {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: 4b4b4b;
+  font-weight: 800;
+}
+
+.footer {
+  margin-top: 90px;
+  background-color: #141414;
+  height: 60px;
+}
+
+.text-footer {
+  font-size: 12px;
+  color: #e0e0e0;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 0;
+}

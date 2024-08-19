@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-inner {
+  background-color: #775ba3 !important;
+  color: white;
+}
+
+.header-logo {
+  margin-right: 80px;
+}
+
+.header-nav {
+  color: white !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.header-img {
+  margin-left: 325px;
+}
+
+.intro-title {
+  font-size: 40px;
+  color: #7e63a7;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.intro-text {
+  font-size: 23px;
+  color: #4b3f55;
+}
+
+.big-block {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.icon-border {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 19px;
+  margin-left: 120px;
+  margin-bottom: 70px;
+}
+
+.icon {
+  width: 58px;
+  height: 57px;
+}
+
+.content-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #91c5a9;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  width: 358px;
+  padding: 5px 0;
+}
+
+.content-text {
+  font-size: 13px;
+  color: #4b3f55;
+}
+
+.content-title-add {
+  font-size: 13px;
+}
+
+.button-ic {
+  display: flex;
+}
+
+.facebook {
+  background-color: #3b5998;
+
+  border: none;
+  padding: 7px 0;
+}
+
+.google {
+  background-color: #d14333;
+
+  border: none;
+  padding: 7px 0;
+}
+
+.drib {
+  background-color: #ea4c88;
+
+  border: none;
+  padding: 7px 0;
+}
+
+.twitter {
+  background-color: #00aced;
+
+  border: none;
+  padding: 7px 0;
+}
+
+.youtube {
+  background-color: #c70c0c;
+
+  border: none;
+  padding: 7px 0;
+}
+
+.pics {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.footer {
+  background-color: #54865d;
+  height: 60px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: white;
+  padding-top: 20px;
+}

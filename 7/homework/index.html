@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <form class="d-flex flex-column">
+          <p class="path">
+            <i class="bx bx-key icon"></i>Вход / <a href="#">Регистрация</a>
+          </p>
+
+          <label class="login-1"
+            >Логин
+            <input type="text" />
+          </label>
+
+          <label class="my-2 login-2"
+            >Пароль
+            <input type="password" />
+          </label>
+
+          <div class="remember-me">
+            <input
+              id="rememberMe"
+              type="checkbox"
+              class="remember-me-checkbox"
+            />
+            <label for="rememberMe">
+              <span></span>
+              Запомнить
+            </label>
+            <div class="confirm">
+              <button class="btn btn-success btn-1">Войти</button>
+            </div>
+          </div>
+
+          <a class="remember" href="#">Напомнить пароль</a>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content-2">
+        <form>
+          <p class="ms-5 mt-3 over-title-content-2">Опрос</p>
+          <p class="title-content-2">
+            Каким способом вы чаще всего <br />
+            оплачиваете электроэнергию?
+          </p>
+          <div>
+            <label class="text-content-2 mb-2">
+              <input type="radio" name="name1" />В отделении банка
+              <br />
+              <input type="radio" name="name1" checked />Банковской картой
+              <br />
+              <input type="radio" name="name1" />Через терминал Qiwi
+              <br />
+              <input type="radio" name="name1" />С помощью мобильного телефона
+              <br />
+              <input type="radio" name="name1" />Автоматическим платежом
+              </label>
+          </div>
+          <div class="under-link-2">
+            <button class="btn btn-light border-black btn-2">Ответить</button>
+            <a class="link-2" href="#">Все опросы</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content-3">
+        <form class="d-flex flex-column text-center">
+          <p class="title-3">Sign in to your account</p>
+          <label class="login-3 my-2"
+            ><div class="icon-border"><i class="bx bx-user-circle"></i></div>
+            <input type="text" placeholder=" Username" />
+          </label>
+
+          <label class="my-2"
+            ><div class="icon-border-2"><i class="bx bx-lock"></i></div>
+            <input type="password" placeholder=" •••••••••" />
+          </label>
+
+          <button class="btn btn-primary btn-3">Sign in</button>
+
+          <p class="member">
+            Not a member?
+            <a class="sign" href="#"
+              >Sign Up Now <i class="bx bxs-right-arrow-alt"></i
+            ></a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
